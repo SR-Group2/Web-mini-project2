@@ -1,0 +1,46 @@
+@font-face{
+	src: url(../fonts/Roboto-Light.ttf);
+	font-family: roboto;
+}
+.list-box {
+    background: #fcf8ef;
+}
+.detail-menu{
+	height: 330px; 
+	
+	padding: 0px 20px 0px 10px;
+	
+}
+
+.text-box{
+	margin: 10px;
+	padding: 15px;
+}
+.f-title{
+	font-size: 35px;
+	text-transform: uppercase;
+	
+}
+.f-title a:hover{
+	text-decoration: none;
+}
+
+.showCategory{
+	padding-top: 200px;
+}
+
+.showCategory  h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+.threeFeather p {
+    color: #7e7e7e;
+    margin: 20px 0px;
+    font-size: 1.3em;
+    font-family: "roboto";
+}
+.view-price  p{
+	font-size: 30px;
+	color: red !important;
+
+}
