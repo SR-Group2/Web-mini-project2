@@ -13,6 +13,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/screen.css" rel="stylesheet">
     <link rel="stylesheet" href="css/tinycarousel.css" media="screen"/>
+    <link rel="stylesheet" href="css/search.css">
 </head>
 <body id="pageTop">
   <!--  ======== navbar ========= -->
@@ -51,16 +52,52 @@
     </nav>
  
     <!--Start search section-->
-    <section class="container">
+    <section class="container-fluid">
 	    	<div>
-	    		<h1>Member Resturarants</h1>
-	    		<h3>Find restaurants of your choice from the list below and click "Place Order" to continue.</h3>
+	    		<h3>Member Resturarants</h1>
+	    		<h5>Find restaurants of your choice from the list below and click "Place Order" to continue.</h3>
 	    	</div>    	
 	    	<div class="row">
-	    		<div class="col-md-6">
-	    			<p>sdfasd</p>
+	    		<div class="col-md-4">
+	    			<div class="searchFilter">
+	    				<form role="form">
+					        <div class="form-group">
+					          <label for="keyword">Keyword:</label>
+					          <input type="text" class="form-control" id="keyword" placeholder="Keyword">
+					        </div>	
+					        <div class="form-group">
+					          <label for="location">Restaurant around:</label>
+					          <select id="location" class="form-control">
+					          	<option disabled selected hidden>Any location</option>
+					          	<option>Toul Kork</option>
+					          	<option>Chroy Chongva</option>
+					          	<option>Sonthormok</option>
+					          </select>
+					        </div>
+					        <div class="form-group">
+					          <label for="country">Country:</label>
+					          <select id="country" class="form-control">
+					          	<option disabled selected hidden>Choose food based on country</option>
+					          	<option>Khmer</option>
+					          	<option>Korean</option>
+					          	<option>Thai</option>
+					          </select>
+					        </div>
+					        <div class="form-group">
+					          <label for="category">Category:</label>
+					          <select id="category" class="form-control">
+					          	<option disabled selected hidden>Choose food based on country</option>
+					          	<option>Dessert</option>
+					          	<option>Soup</option>
+					          	<option>Fry</option>
+					          </select>
+					        </div>						        
+					        <button type="submit" class="btn btn-default">Login</button>
+					    </form>
+	    			</div>
+	    			<div></div>
 	    		</div>
-	    		<div class="col-md-6">
+	    		<div class="col-md-8">
 	    			<p>asdfafs</p>
 	    		</div>
 	    	</div>

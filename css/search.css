@@ -1,0 +1,14 @@
+.navbar-inverse {
+	background: rgba(38, 38, 38, 1);
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+	position: relative; 
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
