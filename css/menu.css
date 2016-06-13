@@ -1,0 +1,12 @@
+@font-face{
+	src: url(../fonts/Roboto-Light.ttf);
+	font-family: roboto;
+
+}
+.threeFeather p,h3 {
+    color: #7e7e7e;
+    margin: 20px 0px;
+    font-size: 1.3em;
+    color: #938372;
+    font-family: "roboto";
+}
