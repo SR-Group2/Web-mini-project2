@@ -5,10 +5,16 @@
 .navbar-fixed-top, .navbar-fixed-bottom {
 	position: relative; 
 }
+
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.advertise{
+	width: 45%;
+	margin: 10px 0px;
 }
