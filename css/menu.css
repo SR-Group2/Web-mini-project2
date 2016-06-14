@@ -10,10 +10,18 @@
     color: #938372;
     font-family: "roboto";
 }
-#box h3{
+#box h3, h2{
 	color: white;
+}
+#box h3{
+	padding-left: 30px;
 }
 #box{
 	background-color: #938372;; 
 	border-radius: 5px;
+}
+#line{
+    padding: 0px 30px;
+    font-size: 2px;
+	background-color:#f5f5f5;
 }
