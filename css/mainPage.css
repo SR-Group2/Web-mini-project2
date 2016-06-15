@@ -16,6 +16,64 @@
 	src: url(../fonts/Cabin-Italic.ttf);
 	font-family: Sail-Italic;
 }
+.searchBox{
+	top: 110px;
+    padding: 10px;
+    background: none;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    display: none;
+}
+.searchForm{
+	/*height: 0;
+	width: 0;*/
+	height: 50px;
+	background: transparent;
+	display: block;
+	
+	
+}
+.searchForm .input-group-addon {
+    padding: 6px 12px;
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+     border: 0; 
+    border-radius: 0;
+}
+.searchForm input{
+	border: 5px solid rgba(0,0,0,0.8);
+	height: 50px;
+	background-color: rgba(0,0,0,0.5);
+	border:none;
+	outline: none;
+	color: #ffffff;
+	padding: 5px 10px;
+	border-radius: 0 !important;
+	width: 100%;
+}
+/*.searchForm .btn-search{
+	border: none;
+    padding: 15px 20px;
+    left: -5px;
+    position: relative;
+    top: -1px;
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+	
+}*/
+.section-wrapper{
+	-webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+   -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
 .navbar {
      border-radius: 0px; 
 }
@@ -187,8 +245,7 @@ img{
   -webkit-transform: scale(1.5);
   -o-transform: scale(1.5);
   -ms-transform: scale(1.5); /* IE 9 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, 
-  	M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, 
    	SizingMethod='auto expand'); /* IE6 and 7 */ 
 }
@@ -446,4 +503,32 @@ footer p{
 	animation-delay: 1.5s;
   	-webkit-animation-delay: 1.5s;
   	
+}
+
+/* ==== media query  ====== */
+@media(max-width: 991px){
+	.searchBox{
+		top:27%;
+	}
+	.navbar-brand {
+    	padding: 0;
+    	line-height: 2;
+    	text-align: center;
+    	float: none;
+    }
+    .navbar-nav > li > a {
+    	padding-top: 20px; 
+    	padding-bottom: 20px;
+    }
+    .navbar-header {
+	    float: none;
+	    text-align: center;
+	    
+	}
+}
+@media(max-width: 767px){
+	.searchBox{
+		top:17%;
+	}
+	
 }

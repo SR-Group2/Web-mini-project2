@@ -14,7 +14,7 @@
     <link href="css/screen.css" rel="stylesheet">
     <link rel="stylesheet" href="css/tinycarousel.css" media="screen"/>
 </head>
-<body id="pageTop">
+<body id="pageTop" class="section-wrapper">
   <!--  ======== navbar ========= -->
     <nav class="navbar navbar-inverse navbar-ab navbar-fixed-top" id="slide-nav">
       <div class="container">
@@ -25,33 +25,54 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">King of menu restaurant</a>
+          <a class="navbar-brand" href="index.html">King of menu restaurant</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Khmer</a></li>
-                <li><a href="#">Thai</a></li>
-                <li><a href="#">Korean</a></li>
-                <li><a href="#">Vietname</a></li>
-                <li><a href="#">Janpan</a></li>
+                <li><a href="khmer.html">Khmer</a></li>
+                <li><a href="thai.html">Thai</a></li>
+                <li><a href="korean.html">Korean</a></li>
+                <li><a href="vietname.html">Vietname</a></li>
+                <li><a href="japan.html">Janpan</a></li>
               </ul>
             </li>
             <li><a href="#contact">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="signin-signup.html"><i class="fa fa-user"></i> Sign in/up</a></li>
-            <li><a href="#about"><i class="fa fa-search"></i> Search</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html"><i class="fa fa-user"></i> Member</a></li>
+            <li class="searchMenu"><a href="#search">
+            <i class="fa fa-search"></i> Search</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    
+    <!--  =============  searching toggle ============ !-->
+    <section class="searchBox">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="searchForm">
+                <form class="form-horizontal">
+                 <div class="col-sm-12">
+                  <div class="input-group">
+                    <input type="text" class="form-control" 
+                    placeholder="enter your keywords">
+                    <div class="input-group-addon">
+                      <i class="fa fa-search"></i></a></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
     <!--  =============  slideshow ============ !-->
-    <section class="slideshow">
+    <section class="slideshow smootScroll">
         <div class="">
             <div id="generic" class="carousel fade" data-ride="carousel">
               <!-- Indicators -->
@@ -305,7 +326,15 @@ All of our dishes are gastronomic, created by the principle of interesting and c
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/jquery.tinycarousel.js"></script>
+    <script src="js/EventEmitter.min.js"></script>
+    <script src="js/smartscroll.min.js"></script>
     <script src="js/js.js"></script>
+    
+    
+<script>
+    
+  
+  </script>
     
 </body>
 </html>

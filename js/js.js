@@ -15,6 +15,7 @@ $(function(){
 		if(scroll >=300){
 			// nav.addClass('animated fadeIn navbar-fixed-top');
 			$('.navbar-ab').css("position", 'fixed');
+			
 			$(".navbar-inverse").css("background", "rgba(38, 38, 38, 1)");
 			$(".navbar-nav > li > a ").css({
 				"padding-top": "30px",
@@ -25,6 +26,7 @@ $(function(){
 		}else{
 			
 			$('.navbar-ab').css("position", 'absolute');
+		
 			$(".navbar-inverse").css("background", "rgba(38, 38, 38, 0.47)");
 			$(".navbar-nav > li > a ").css({
 				"padding-top" : "50px",
@@ -37,9 +39,9 @@ $(function(){
 	/* ============== Animation ThreeFeather And Goto Top page=========*/
 	$('.threeFeather').waypoint(function(direction) {
 		 if (direction === 'down') {
-       		$('.gotoTop').removeClass('fadeOut');
 		 	$('.img-box img').addClass('animated slideInLeft');
       	 	$('.desThF').addClass('animated fadeIn');
+      	 	$('.gotoTop').removeClass('fadeOut');
       	 	$('.gotoTop').css("display", "block").addClass('animated fadeIn');
 		 }
 		 else{
@@ -143,6 +145,31 @@ $(function(){
     });
 
 
-
-
+    /* ==========   Smart Scrolling ==========*/
+    // var ee = new EventEmitter();
+    // var scrollStartListener = function (slideNumber) {
+    //   console.log("Scrolling to " + slideNumber);
+    // }
+    // var scrollEndListener = function () {
+    //   console.log("Scrolling End");
+    // }
+    // ee.addListener('scrollStart', scrollStartListener);
+    // ee.addListener('scrollEnd', scrollEndListener);
+    // var smartscroll = $.smartscroll({
+    //   sectionWrapperSelector: ".section-wrapper",
+    //   sectionClass: "smootScroll",
+    //   eventEmitter: ee
+    // });
+    
+     /* ==========   Searching Animation MenuBar ==========*/
+     $('.searchMenu').on('click', function(e){
+     
+     	e.preventDefault();
+     	
+     	$(".searchBox").slideToggle();
+     	
+     	
+     })
+     
+     
 });

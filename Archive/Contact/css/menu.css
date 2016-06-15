@@ -1,0 +1,34 @@
+.featherMenu{
+	padding: 50px 0px;
+	height: 600px;
+	background: url(../images/parallax01.jpg) no-repeat fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+	color:#ffffff;
+	overflow: hidden;
+	position: relative;
+}
+.featherMenu h1{
+	font-size: 4vmax;
+	margin-bottom: 40px;
+	font-family: 'Cabin';
+	text-shadow: 1px 1px 1px #000000;
+	-webkit-text-shadow: 1px 1px 1px #000000;
+	-moz-text-shadow: 1px 1px 1px #000000;
+}
+.featherMenu h3{
+	margin-bottom: 30px;
+	text-shadow: 1px 1px 1px #000000;
+	-webkit-text-shadow: 1px 1px 1px #000000;
+	-moz-text-shadow: 1px 1px 1px #000000;
+}
+.featherMenu p{
+	font-size: 1.5em;
+	font-family: 'Sail-Italic';
+	text-shadow: 1px 1px 1px #000000;
+	-webkit-text-shadow: 1px 1px 1px #000000;
+	-moz-text-shadow: 1px 1px 1px #000000;
+}
+.virticalTop{
+	margin-top:9%;
+}

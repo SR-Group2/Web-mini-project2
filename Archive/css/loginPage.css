@@ -1,0 +1,8 @@
+@font-face{
+	src: url(../fonts/Cabin-Regular.ttf);
+	font-family: Cabin;
+}
+.logo{
+	font-family: "Cabin";
+	font-size: 3em;
+}

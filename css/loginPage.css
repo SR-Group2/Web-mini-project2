@@ -1,0 +1,27 @@
+@font-face{
+	src: url(../fonts/Sail-Regular.ttf);
+	font-family: Sail-Regular;
+}
+.logo h1{
+	font-family: "Sail-Regular";
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 0px 2px 2px solid #000000;
+}
+.footer-login{
+	width: 40%;
+}
+
+.footer-login a {
+    color: #949494;
+    text-decoration: none;
+    
+}
+.footer-login a:hover{
+	background: transparent !important;
+	color:#fff;
+	cursor: pointer;
+}
+.footer-login {
+	
+}

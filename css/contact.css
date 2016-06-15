@@ -1,0 +1,31 @@
+#googleMap{
+	width: 100%;
+	height: 700px;
+}
+
+.navbar-inverse {
+    background: rgba(38, 38, 38, 1)!important;
+    border: none;
+    width: 100%;
+ }
+ .navbar-ab {
+    background: rgba(38, 38, 38, 1)!important;
+    position: relative;
+    z-index: 100;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    background: rgba(38, 38, 38, 1); 
+}
+/* Overriding Magin top on contact section in page contact*/
+.showMenu {
+     margin-top: 0px; 
+}
