@@ -14,7 +14,7 @@
   color : #533834;
   font-family: "roboto";
 }
-#box h3, h2{
+#box h3, h2,p{
 	color: white;
 }
 #box h3{
@@ -25,12 +25,34 @@
 	border-radius: 5px;
 }
 #line img{
-    width: 80px;
+  width: 80px;
    transition:none;
    transform: none;
   
 }
-.navbar{
-  position: relative;
-  background: rgba(38, 38, 38, 1) !important;"
+.slideMenu{
+  height: 500px;
+  margin-top: 0px;
+  padding: 200px;
+  color: white;
+  background-image: url('../images/bg-image-4.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: ;
+  background-attachment: fixed;
+}
+.slideMenu .container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.slideMenu img{
+  overflow: all;
+}
+.slideMenu h1{
+  margin: 0 auto;
+}
+.slideMenu p{
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-family: "roboto";
 }
