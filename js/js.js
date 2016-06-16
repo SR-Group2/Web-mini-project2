@@ -22,6 +22,9 @@ $(function(){
 				"padding-bottom": "30px"
 			});
 			$(".navbar-brand").css("padding", "30px 15px");
+
+			$('.gotoTop').removeClass('fadeOut');
+      	 	$('.gotoTop').css("display", "block").addClass('animated fadeIn');
 		
 		}else{
 			
@@ -34,6 +37,8 @@ $(function(){
 			});
 			$(".navbar-brand").css("padding", "50px 15px");
 
+			$('.gotoTop').removeClass('fadeIn').addClass('fadeOut');
+
 		}
 	});
 	/* ============== Animation ThreeFeather And Goto Top page=========*/
@@ -41,12 +46,12 @@ $(function(){
 		 if (direction === 'down') {
 		 	$('.img-box img').addClass('animated slideInLeft');
       	 	$('.desThF').addClass('animated fadeIn');
-      	 	$('.gotoTop').removeClass('fadeOut');
-      	 	$('.gotoTop').css("display", "block").addClass('animated fadeIn');
+      	 	// $('.gotoTop').removeClass('fadeOut');
+      	 	// $('.gotoTop').css("display", "block").addClass('animated fadeIn');
 		 }
 		 else{
 		 
-       		$('.gotoTop').removeClass('fadeIn').addClass('fadeOut');
+       		// $('.gotoTop').removeClass('fadeIn').addClass('fadeOut');
        		
 		 }
        
